@@ -1,0 +1,20 @@
+{
+	"name": "komicho/laravel-user-online",
+	"type": "library",
+	"description": "Analyze packages within the project",
+	"keywords": ["php", "laravel", "user", "online", "komicho"],
+	"homepage": "https://github.com/komichoNinja/laravelUserOnline",
+	"authors": [
+		{
+			"name": "komicho",
+			"email": "komicho1996@gmail.com",
+			"homepage": "https://komicho.github.io/",
+			"role": "Developer"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"komicho\\": "/src"
+		}
+	}
+}
