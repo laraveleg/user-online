@@ -14,7 +14,7 @@
 	],
 	"autoload": {
 		"psr-4": {
-			"Komicho\\Laravel": "/src"
+			"Komicho\\Laravel\\": "/src"
 		}
 	}
 }
