@@ -1,6 +1,6 @@
 <?php
 
-namespace komicho\Traits;
+namespace Komicho\Laravel\Traits;
 
 use Illuminate\Support\Facades\Cache;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace komicho\Middleware;
+namespace Komicho\Laravel\Middleware;
 
 use Closure;
 
