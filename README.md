@@ -10,12 +10,12 @@ $ composer require komicho/laravel-user-online dev-master
 
 ## add new middleware in `app/Http/Kernel.php` file
 ```php
-komicho\Middleware\UserOnlineMiddleware::class
+\Komicho\Laravel\Middleware\UserOnlineMiddleware::class
 ```
 
 ## add the trait in your model User in `app/User.php` file
 ```php
-use komicho\Traits\UserOnline;
+use Komicho\Laravel\Traits\UserOnline;
 
 class User extends Authenticatable
 {
