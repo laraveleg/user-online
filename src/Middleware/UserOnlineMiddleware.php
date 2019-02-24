@@ -20,7 +20,7 @@ class UserOnlineMiddleware
     {
         $response = $next($request);
         if (Auth::check()) {
-            Cache::store('file')->put('userIsOnline-'.Auth::user()->id, 'true', now()->addMinutes(1));
+            Cache::store('file')->put('userIsOnline-'.Auth::user()->id, 'true', now()->addMinutes(config('komichoUserOnline.time_allowed')));
         }
         return $response;
     }
