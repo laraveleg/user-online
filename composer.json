@@ -16,5 +16,12 @@
 		"psr-4": {
 			"Komicho\\Laravel\\": "/src"
 		}
-	}
+	},
+	"extra": {
+        "laravel": {
+            "providers": [
+                "Komicho\\Laravel\\UserOnlineServiceProvider"
+            ]
+        }
+    }
 }
