@@ -9,10 +9,6 @@ trait UserOnline
 {
     public function isOnline()
     {
-        if (Auth::id() == $this->id) {
-            return false;
-        }
-
         if (Cache::has('userIsOnline-'.$this->id)) {
             return true;
         }
