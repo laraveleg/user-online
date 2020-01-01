@@ -5,7 +5,7 @@ Define the status of the user that was online or otherwise.
 Add orm to composer.json configuration file.
 
 ```bash
-$ composer require komicho/laravel-user-online dev-master
+$ composer require komicho/laravel-user-online
 ```
 
 ## add new middleware in `app/Http/Kernel.php` file
