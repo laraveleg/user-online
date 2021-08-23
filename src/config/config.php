@@ -1,5 +1,5 @@
 <?php
 
 return [
-    'time_allowed' => 1
+    'time_allowed' => 1,
 ];

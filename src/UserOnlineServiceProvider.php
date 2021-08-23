@@ -1,15 +1,14 @@
 <?php
 
-namespace Komicho\Laravel;
+namespace LaravelEG\Laravel;
 
 class UserOnlineServiceProvider extends \Illuminate\Support\ServiceProvider
 {
-    
-    public function boot()
+    public function boot(): void
     {
         $this->mergeConfigFrom(
-            __DIR__.'/config/config.php', 'komichoUserOnline'
+            __DIR__.'/config/config.php',
+            'laravelegUserOnline'
         );
     }
-    
 }

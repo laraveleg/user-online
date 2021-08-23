@@ -1,9 +1,9 @@
 {
-	"name": "komicho/laravel-user-online",
+	"name": "laraveleg/user-online",
 	"type": "library",
 	"description": "Analyze packages within the project",
-	"keywords": ["php", "laravel", "user", "online", "komicho"],
-	"homepage": "https://github.com/komichoNinja/laravelUserOnline",
+	"keywords": ["php", "laravel", "user", "online", "laraveleg"],
+	"homepage": "https://github.com/laraveleg/laravel-user-wallet",
 	"authors": [
 		{
 			"name": "komicho",
@@ -14,14 +14,17 @@
 	],
 	"autoload": {
 		"psr-4": {
-			"Komicho\\Laravel\\": "/src"
+			"LaravelEG\\Laravel\\": "/src"
 		}
 	},
 	"extra": {
         "laravel": {
             "providers": [
-                "Komicho\\Laravel\\UserOnlineServiceProvider"
+                "LaravelEG\\Laravel\\UserOnlineServiceProvider"
             ]
         }
-    }
+    },
+	"require-dev": {
+		"nunomaduro/phpinsights": "^2.0"
+	}
 }
